@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', 'cursive';
+    color: black;
+    background-color: #F3FBFB;
+
+}
+
+.form {
+    width: 250px;
+    height: 50px;
+    padding: 0.5rem;
+    margin-left: 43vw;
+    margin-top: 20vh;
+}
+
+.form__search {
+    display: flex;
+}
+
+#form__search__input {
+    border: 2px solid black;
+    border-right-style: none;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.form__icon {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    padding: 0.3rem;
+}
+
+#main {
+    margin-left: 41vw;
+    margin-top: 7vh;
+}
+
+.user {
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 5px 5px #8B8CA4;
+}
+
+.user__name {
+    letter-spacing: 0.1rem;
+}
+
+.user__location {
+    letter-spacing: 0.1rem;
+}
+
+.user__avatar>img {
+    margin-top: 1rem;
+    width: 30%;
+    border-radius: 100%;
+    border: 1px solid #10B9C9;
+    padding: 0.5rem;
+}
+
+.user__bio>p {
+    padding: 0rem 0.5rem;
+}
+
+
+.user__generaldata {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__generaldata span {
+    font-size: 0.7rem;
+    margin-left: 0.2rem;
+}
+
+.user__generaldata>div {
+    padding: 0rem 0.5rem;
+}
+
+.blog {
+    background-color: #eee;
+    width: inherit;
+    padding: 1rem 0rem;
+}
+
+#user__repos {
+    width: inherit;
+}
+
+#user__repos>a {
+    display: inline-block;
+    margin-bottom: 0.4rem;
+    margin-left: 0.4rem;
+    text-decoration: none;
+    padding: 0.2rem;
+    background-color: #64CDE2;
+    color: white;
+    border: 1px solid #64CDE2;
+}
