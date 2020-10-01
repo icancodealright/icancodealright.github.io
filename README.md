@@ -1,7 +1,7 @@
 # icancodealright.github.io
 
 This Repositiory Conatins JavaScript Projects Which i build to have fun while learning.
--- The following are the Projects Included In this Repo
+__ The following are the Projects Included In this Repo
  1.Covid Tracker app : In this User can see the live data regarding covid-19 active,death and Recovered cases,of countries.
     URL--https://icancodealright.github.io/covid-tracker-app/
  
